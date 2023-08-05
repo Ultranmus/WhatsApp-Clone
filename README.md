@@ -1,16 +1,27 @@
-# whatsapp_clone
+# WhatsApp Clone
 
-A new Flutter project.
+A Flutter project that only contains Front-end.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a WhatsApp Clone. It contains only UI for 3 screens of WhatsApp :- 
+- Splash Screen
+- Chats List Screen
+- Chat Screen
 
-A few resources to get you started if this is your first Flutter project:
+### Splash Screen
+- It is the first screen that contains logo of whatsapp with a fade animation that go for 3 seconds and then navigates to Chats List Screen.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Chats List Screen
+- It contains list of chats.
+- Each item in list contains other user name, last message, profile image.
+- On click of item navigates to Chat Screen.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Chat Screen  
+- It contains chat with other user.
+- Similar UI to whatsapp chat screen.
+- User can select emoji, gif to send.
+- Giphy is used for gif.
+- It also enable to record audio message and provide us audio file (we can store it in firebase storage in future).
+- On click of attach icon opens a pop up menu containing other options like location, document, contacts etc.
+
